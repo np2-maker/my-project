@@ -1,0 +1,11 @@
+{
+  "name": "my-project",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
+}
