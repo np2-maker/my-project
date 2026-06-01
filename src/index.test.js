@@ -21,7 +21,7 @@ describe("addNumbers", () => {
   });
 
   it("adds decimals", () => {
-    assert.equal(addNumbers(0.1, 0.2), 0.1 + 0.2);
+    assert.ok(Math.abs(addNumbers(0.1, 0.2) - 0.3) < Number.EPSILON);
     assert.equal(addNumbers(1.5, 2.5), 4);
   });
 
